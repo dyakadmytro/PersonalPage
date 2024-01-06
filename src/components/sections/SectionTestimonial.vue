@@ -21,7 +21,7 @@
                         and priced simply dummy text of the printing and typesetting industry quidam interesset
                         his et. simply dummy text of the printing and typesetting industry. Excellent.”</p><img
                         class="img-fluid d-inline-block w-auto rounded-circle shadow"
-                        src="images/testimonial/client-sm-4.jpg" alt="Chris Tom"> <strong
+                        src="https://picsum.photos/200/300" alt="Chris Tom"> <strong
                         class="d-block text-3 fw-600 text-white">Chris Tom</strong> <span class="text-light">User from UK</span>
                     </div>
                   </div>
@@ -35,7 +35,7 @@
                         printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam
                         possim iriure. simply dummy text of the printing and typesetting industry.”</p><img
                         class="img-fluid d-inline-block w-auto rounded-circle shadow"
-                        src="images/testimonial/client-sm-1.jpg" alt="Jay Shah"> <strong
+                        src="https://picsum.photos/200/300" alt="Jay Shah"> <strong
                         class="d-block text-3 fw-600 text-white">Jay Shah</strong> <span class="text-light">Founder at Icomatic Pvt Ltd</span>
                     </div>
                   </div>
@@ -49,7 +49,7 @@
                         Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure.
                         simply dummy text of the printing and typesetting industry.”</p><img
                         class="img-fluid d-inline-block w-auto rounded-circle shadow"
-                        src="images/testimonial/client-sm-2.jpg" alt="Patrick Cary"> <strong
+                        src="https://picsum.photos/200/300" alt="Patrick Cary"> <strong
                         class="d-block text-3 fw-600 text-white">Patrick Cary</strong> <span class="text-light">Freelancer from USA</span>
                     </div>
                   </div>
@@ -62,7 +62,7 @@
                       <p class="text-5 text-white">“Only trying it out since a few days. But up to now excellent.
                         Seems to work flawlessly. priced simply dummy text of the printing and typesetting
                         industry.”</p><img class="img-fluid d-inline-block w-auto rounded-circle shadow"
-                                           src="images/testimonial/client-sm-3.jpg" alt="Dennis Jacques"> <strong
+                                           src="https://picsum.photos/200/300" alt="Dennis Jacques"> <strong
                         class="d-block text-3 fw-600 text-white">Dennis Jacques</strong> <span class="text-light">Noon Inc</span>
                     </div>
                   </div>
@@ -76,7 +76,7 @@
                         and priced simply dummy text of the printing and typesetting industry quidam interesset
                         his et. simply dummy text of the printing and typesetting industry. Excellent.”</p><img
                         class="img-fluid d-inline-block w-auto rounded-circle shadow"
-                        src="images/testimonial/client-sm-4.jpg" alt="Chris Tom"> <strong
+                        src="https://picsum.photos/200/300" alt="Chris Tom"> <strong
                         class="d-block text-3 fw-600 text-white">Chris Tom</strong> <span class="text-light">User from UK</span>
                     </div>
                   </div>
@@ -90,7 +90,7 @@
                         printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam
                         possim iriure. simply dummy text of the printing and typesetting industry.”</p><img
                         class="img-fluid d-inline-block w-auto rounded-circle shadow"
-                        src="images/testimonial/client-sm-1.jpg" alt="Jay Shah"> <strong
+                        src="https://picsum.photos/200/300" alt="Jay Shah"> <strong
                         class="d-block text-3 fw-600 text-white">Jay Shah</strong> <span class="text-light">Founder at Icomatic Pvt Ltd</span>
                     </div>
                   </div>
@@ -104,7 +104,7 @@
                         Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure.
                         simply dummy text of the printing and typesetting industry.”</p><img
                         class="img-fluid d-inline-block w-auto rounded-circle shadow"
-                        src="images/testimonial/client-sm-2.jpg" alt="Patrick Cary"> <strong
+                        src="https://picsum.photos/200/300" alt="Patrick Cary"> <strong
                         class="d-block text-3 fw-600 text-white">Patrick Cary</strong> <span class="text-light">Freelancer from USA</span>
                     </div>
                   </div>
@@ -117,7 +117,7 @@
                       <p class="text-5 text-white">“Only trying it out since a few days. But up to now excellent.
                         Seems to work flawlessly. priced simply dummy text of the printing and typesetting
                         industry.”</p><img class="img-fluid d-inline-block w-auto rounded-circle shadow"
-                                           src="images/testimonial/client-sm-3.jpg" alt="Dennis Jacques"> <strong
+                                           src="https://picsum.photos/200/300" alt="Dennis Jacques"> <strong
                         class="d-block text-3 fw-600 text-white">Dennis Jacques</strong> <span class="text-light">Noon Inc</span>
                     </div>
                   </div>
@@ -131,7 +131,7 @@
                         and priced simply dummy text of the printing and typesetting industry quidam interesset
                         his et. simply dummy text of the printing and typesetting industry. Excellent.”</p><img
                         class="img-fluid d-inline-block w-auto rounded-circle shadow"
-                        src="images/testimonial/client-sm-4.jpg" alt="Chris Tom"> <strong
+                        src="https://picsum.photos/200/300" alt="Chris Tom"> <strong
                         class="d-block text-3 fw-600 text-white">Chris Tom</strong> <span class="text-light">User from UK</span>
                     </div>
                   </div>

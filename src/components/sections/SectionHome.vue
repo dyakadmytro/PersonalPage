@@ -1,26 +1,30 @@
 <template>
-  <section id="home" class="bg-primary d-flex fullscreen position-relative py-5">
-    <div class="container my-auto py-4">
-      <div class="row">
-        <div class="col-lg-7 text-center text-lg-start align-self-center order-1 order-lg-0 wow fadeIn"
-             style="visibility: visible;"><h1 class="text-12 fw-300 mb-0 text-uppercase">Hi, I'm a Freelancer</h1>
-          <h2 class="text-21 fw-600 text-uppercase mb-0 ms-n1">
-            <div class="Typewriter" data-testid="typewriter-wrapper"><span
-                class="Typewriter__wrapper">Developer</span><span class="Typewriter__cursor">|</span></div>
+  <section id="home" class="bg-blue-500 flex flex-col justify-center h-screen py-5 relative">
+    <div class="container mx-auto py-4">
+      <div class="flex flex-wrap">
+        <div class="w-full lg:w-7/12 text-center lg:text-left self-center">
+          <h1 class="text-6xl font-light mb-0 uppercase">Hi, I'm a Freelancer</h1>
+          <h2 class="text-9xl font-bold uppercase mb-0 -ml-4">
+            <div class="Typewriter" data-testid="typewriter-wrapper">
+              <span class="Typewriter__wrapper">Developer</span>
+              <span class="Typewriter__cursor">|</span>
+            </div>
           </h2>
-          <p class="text-5">based in Los Angeles, USA.</p><a class="btn btn-dark rounded-0 smooth-scroll mt-3"
-                                                             style="cursor: pointer;">View My Works</a><a
-              class="btn btn-link text-dark smooth-scroll mt-3" style="cursor: pointer;">Contact Me<span
-              class="text-4 ms-2"><i class="far fa-arrow-alt-circle-down"></i></span></a></div>
-        <div class="col-lg-5 text-center align-self-center mb-4 mb-lg-0 order-0 order-lg-1">
-          <div class="bg-light rounded-pill d-inline-block p-3 shadow-lg wow zoomIn" style="visibility: visible;">
-            <img class="img-fluid rounded-pill d-block" src="images/web-developer.jpg" title="I'm Callum"
-                 alt="I'm David"></div>
+          <p class="text-xl">based in Los Angeles, USA.</p>
+          <a class="btn bg-gray-800 text-white rounded-none mt-3 cursor-pointer">View My Works</a>
+          <a class="btn text-gray-800 mt-3 cursor-pointer">Contact Me<span class="text-xl ml-2"><i class="far fa-arrow-alt-circle-down"></i></span></a>
+        </div>
+        <div class="w-full lg:w-5/12 text-center self-center mb-4 lg:mb-0">
+          <div class="bg-gray-100 rounded-full inline-block p-3 shadow-lg">
+            <img class="img-fluid rounded-full" src="https://picsum.photos/200/300" title="I'm Callum" alt="I'm David">
+          </div>
         </div>
       </div>
     </div>
-    <a class="scroll-down-arrow text-dark smooth-scroll" style="cursor: pointer;"><span class="animated"><i
-        class="fas fa-arrow-down"></i></span></a></section>
+    <a class="scroll-down-arrow text-gray-800 cursor-pointer absolute bottom-4 left-1/2 transform -translate-x-1/2">
+      <span class="animate-bounce"><i class="fas fa-arrow-down"></i></span>
+    </a>
+  </section>
 </template>
 
 <script>
