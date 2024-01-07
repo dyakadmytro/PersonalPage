@@ -1,5 +1,5 @@
 <template>
-  <section id="home" class="bg-blue-500 flex flex-col justify-center h-screen py-5 relative">
+  <section id="home" class="bg-amber-400 flex flex-col justify-center h-dvh py-5 relative">
     <div class="container mx-auto py-4">
       <div class="flex flex-wrap">
         <div class="w-full lg:w-7/12 text-center lg:text-left self-center">
@@ -16,7 +16,7 @@
         </div>
         <div class="w-full lg:w-5/12 text-center self-center mb-4 lg:mb-0">
           <div class="bg-gray-100 rounded-full inline-block p-3 shadow-lg">
-            <img class="img-fluid rounded-full" src="https://picsum.photos/200/300" title="I'm Callum" alt="I'm David">
+            <img class="img-fluid rounded-full" src="https://picsum.photos/400/400" title="I'm Callum" alt="I'm David">
           </div>
         </div>
       </div>
