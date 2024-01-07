@@ -1,60 +1,62 @@
 <template>
-  <header id="header" :class="[ headerColor() , 'sticky top-0 h-20 z-30']">
-    <nav class="w-full font-semibold text-white ">
-      <div class="flex w-full flex-wrap items-center justify-between px-3 text-slate-100">
-        <a class="logo" title="Callum" style="cursor: pointer;">
-          <img class="w-20" src="../assets/images/logo.png" alt="DykaDmytro">
-        </a>
-        <div class="ml-5 flex w-[25%] items-center justify-between">
-          <div class="text-xl font-bold">
-          <span class="text-lg me-2">
-            <i class="fas fa-phone"></i>
-          </span>
-            (060) 444 434 444
-          </div>
-          <div id="nav-burger" v-on:click="toggleBurger" :class="burgerActive? 'open z-50': ''">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
+  <header id="header" :class="[ headerColor() , 'sticky top-0 h-20 z-30 flex justify-between']">
+    <div class="items-center">
+      <a class="logo" title="Callum" style="cursor: pointer;">
+        <img class="w-20" src="../assets/images/logo.png" alt="DykaDmytro">
+      </a>
+    </div>
+    <div class="flex justify-between text-slate-100 items-center">
+      <div class="text-xl sm:text-2xl text-font-bold ms-5 inline-block align-middle">
+        <span>
+          <i class="fas fa-phone"></i>
+        </span>
+        <span>(060) 444 434 444</span>
+      </div>
+      <div class="mx-5">
+        <div id="nav-burger" v-on:click="toggleBurger" :class="burgerActive? 'open z-50': ''">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </div>
-      <div id="header-nav" :class="[burgerActive? 'z-40 absolute bg-zinc-900 w-full opacity-90 top-0' : 'hidden', 'flex items-center justify-center h-screen']">
-        <div class="flex flex-col h-full items-center justify-center leading-10 text-4xl font-bold">
-          <ul class="navbar-nav text-center">
-            <li class="nav-item">
-              <a class="nav-link active" style="cursor: pointer;">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="cursor: pointer;">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="cursor: pointer;">What I Do</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="cursor: pointer;">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="cursor: pointer;">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="cursor: pointer;">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="cursor: pointer;">Client Speak</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" style="cursor: pointer;">Contact Me</a>
-            </li>
-          </ul>
-          <ul class="social-icons flex mt-4">
-            <!-- Social icons list -->
-          </ul>
-        </div>
+    </div>
+    <div id="header-nav" :class="[
+        burgerActive? 'z-40 absolute bg-zinc-900 w-full opacity-90 top-0' : 'hidden',
+        'flex items-center justify-center h-screen text-slate-100'
+    ]">
+      <div class="flex flex-col h-full items-center justify-center leading-10 text-4xl font-bold">
+        <ul id="menu" class="navbar-nav text-center">
+          <li class="nav-item">
+            <a class="nav-link active" style="cursor: pointer;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="cursor: pointer;">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="cursor: pointer;">What I Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="cursor: pointer;">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="cursor: pointer;">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="cursor: pointer;">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="cursor: pointer;">Client Speak</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="cursor: pointer;">Contact Me</a>
+          </li>
+        </ul>
+        <ul class="social-icons flex mt-4">
+          <!-- Social icons list -->
+        </ul>
       </div>
-    </nav>
+    </div>
   </header>
-
 </template>
 
 <script>
@@ -172,5 +174,11 @@ header {
   transform: rotate(-45deg);
   top: 39px;
   left: 8px;
+}
+#menu {
+  line-height: 2em;
+}
+#menu li:hover {
+  color: #fbc024;
 }
 </style>
