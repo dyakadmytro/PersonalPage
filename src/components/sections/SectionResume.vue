@@ -1,10 +1,10 @@
 <template>
-  <section id="resume" class="border-t-4">
-    <div class="container mx-auto mt-40">
-      <p class="text-center  mb-20">
-        <span class="bg-amber-400 text-white p-2">Resume</span>
+  <section id="resume" class="h-dvh border-b-4">
+    <div class="h-full mx-auto m-5 md:m-20">
+      <p class="text-center mb-20 chapter">
+        <span class="">Resume</span>
       </p>
-      <h2 class="text-6xl font-semibold text-center mb-20">A summary of My Resume</h2>
+      <h2 class="text-6xl font-semibold text-center mb-40">A summary of My Resume <span class="text-amber-400 p-2 text-7xl">✓</span></h2>
       <div class="grid grid-cols-2 gap-10 mb-16">
         <div>
           <h2 class="text-3xl font-semibold mb-5">My Education</h2>
